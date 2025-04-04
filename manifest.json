@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Airbnb rating score",
   "short_name": "Airbnb rating",
   "version": "1",
   "description": "View Airbnb rating score easily.",
-  "author": "Mohamed Oun",
+  "host_permissions": ["*://www.airbnb.com/rooms/*"],
   "content_scripts": [
     {
       "matches": ["*://www.airbnb.com/rooms/*"],
